@@ -26,7 +26,7 @@ public extension Source
         return Bundle.Info.appbundleIdentifier
     }
     
-    static let altStoreSourceBaseURL = "https://sidestore-apps.naturecodevoid.dev/"
+    static let altStoreSourceBaseURL = "https://apps.sidestore.io/"
     
     static var altStoreSourceURL: URL {
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
